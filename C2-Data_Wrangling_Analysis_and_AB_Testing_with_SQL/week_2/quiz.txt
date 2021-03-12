@@ -1,0 +1,54 @@
+1.
+Question 1
+Which step should happen first in data analysis?
+
+v Collecting Data
+
+Question 2
+TROUBLESHOOT THIS ERROR by selecting appropriate actions to remedy this specific query?
+v Run DESCRIBE TABLE example_table to see if the existing example_table is structured appropriately
+
+Question 3
+
+table_x is dependent on table_y and dates_rollup
+table_x is dependent on table_y
+
+4.
+Question 4
+Based on what you know about the orders table for this class, which of the following columns have a suitable datatype?
+
+Invoice_id
+user_id
+
+5.Question 5
+For this class, we are using Mode on a dataset specifically created for this course. 
+Which of these circumstances could be different in a real world situation? (Select all that apply.)
+
+The specific dialect of SQL
+How frequently the data is updated
+
+
+6. Based on what you know about the items table for this class, 
+which of the following columns have a suitable datatype? (Select all that apply.)
+category
+name
+
+7.Which of the following table methods allows you to specify data types?
+
+MAKE NEW TABLE 
+   example_table 
+AS …
+
+8. When creating a user info table we used a variable in place of which column?
+
+the user
+
+9. Suppose in a table, you find a column called email which contains the value user@domain.com. What is the correct data type category for this column?
+
+string
+
+10. In this module, we created a table specifically of item view events. What level of the hierarchy of data does this belong on?
+Explore and Transform
+
+11. Suppose in a table you find a column called event_id, which contains the value z87df6ab4waoa756b3. What is the correct data type category for this column?
+String

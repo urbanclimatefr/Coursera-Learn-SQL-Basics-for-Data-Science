@@ -1,0 +1,91 @@
+1.
+Question 1
+Which of the following attributes distinguish a work-in-progress from a “polished” final query? (Select all that apply.)
+Every column has a descriptive name
+The query is formatted consistently, or according to a style guide
+
+2.Question 2
+In which of the following sections did we perform analysis to directly guide decision making?
+X Creating a view items table
+
+3. 3.
+Question 3
+Which of the following are uses of a dates rollup table?
+V Efficiently computing aggregates over a rolling time period
+V For keeping track of your meeting schedule
+4.
+Question 4
+We’ve decided to only use the items and users tables to answer the following questions:
+
+How many items have been purchased?
+How many items do we have?
+Which join type and order will allow us to correctly compute the columns Item_count, items_ever_purchased_count?
+
+SELECT   *
+
+FROM  
+
+  dsv1069.items
+
+LEFT OUTER JOIN
+
+  dsv1069.orders
+
+ON 
+
+  items.id = orders.item
+
+X 
+SELECT *
+
+FROM
+
+  dsv1069.orders
+
+LEFT JOIN
+
+  dsv1069.items
+
+ON 
+
+  items.id = orders.item
+
+5. For this statement, fill in the __ with the appropriate inequality (<, <=, =, >=, >):
+
+For days in any given week
+
+Daily unique visitors _ Weekly Unique visitors 
+>
+
+6. Select the best definition of a windowing function?
+It is a function that computes a value on a certain partition, 
+or window, of the data that is specified in the PARTITION BY statement.
+
+7. Folks at the company wonder if our product catalog is too big. 
+What are some related questions that you could directly answer with data? (Select all that apply.)
+v How many items do we have?
+v How many items have been purchased?
+
+How many users have purchased an item?
+8.
+Question 8
+Which of the following tasks can be accomplished with a windowing function? (Select all that apply.)
+Find the most recently viewed item
+Find the most expensive item per order
+
+9.
+Question 9
+Let’s suppose we want to write a query to answer both of these questions:
+
+How many users have made a purchase?
+How many users do we have?
+Please choose the best set of columns for a final query that would answer these questions:
+
+user_count
+users_with_purchases
+
+10.
+Question 10
+According to the methodology suggested in this module, which step comes first?
+
+Identify the question you are trying to answer
